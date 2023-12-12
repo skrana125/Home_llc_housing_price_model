@@ -1,13 +1,13 @@
-# USA HOUSING- Data Science Model
+# Housing Price of US
 
-Welcome to the "Exploring US Home Price Trends" project repository! In this project, we embark on a data-driven 
+Welcome to houing price explotery project. In this project, we embark on a data-driven 
 journey to understand the key factors influencing home prices in the United States over the past two decades.
 By leveraging publicly available data and advanced data science techniques, our goal is to build a comprehensive
 model that sheds light on the intricate relationship between various factors and home prices.
 
-- [🔗 Data Cleaning](https://github.com/Npps1997/USA-HOUSING--Data-Science-Model/blob/main/Data_Cleaning_LLC.ipynb): Details on data cleaning and preprocessing.
-- [🔗 EDA_and_Feature_Engineering](https://github.com/Npps1997/USA-HOUSING--Data-Science-Model/blob/main/EDA_LLC.ipynb): Information about data relations and distributions.
-- [🔗 Model_Training](https://github.com/Npps1997/USA-HOUSING--Data-Science-Model/blob/main/model_training_LLC.ipynb): Model Training and Evaluation of features.
+- Data Cleaning: Data_Cleaning_LLC.ipynb: Details on data cleaning and preprocessing.
+- EDA_and_Feature_Engineering (EDA_LLC.ipynb): Information about data relations and distributions.
+- Model Training (model_training_LLC.ipynb): Model Training and Evaluation of features.
 
 Feel free to explore each section for a deeper understanding of the project.
 
@@ -99,12 +99,6 @@ The cross-validation process resulted in the following **R-squared** scores for 
 - Fold 4: 0.9926
 - Fold 5: 0.9932
 
-![image](https://github.com/Npps1997/USA-HOUSING--Data-Science-Model/assets/96871890/9d8ecd9b-c3a5-40d9-86a4-e230de4783ab)
-
-
-- **mean R-squared** : **0.9937**
-- **standard deviation R squared** : **0.0009**
-
 ## Best Features With non-zero Coefficients
 
 Here are the features and their respective coefficients obtained from our Lasso regression model:
@@ -142,8 +136,4 @@ In our analysis, some features in our Lasso regression model had coefficients of
 | total_emp_cons        | 0.0          |
 
 These features do not have a significant impact on the prediction of home prices in our model.
-
-## Sources
-
-https://fred.stlouisfed.org/
 
